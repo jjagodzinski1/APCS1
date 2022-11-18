@@ -22,10 +22,10 @@ public class Runner {
         Course w8 = new Course(initW8());
 
         //How many people in each group you want
-        int groupNum = 7;
+        int groupNum = 3;
 
-        groups(b1, groupNum);
-
+            groups(w2, groupNum);
+         
     }
 
     public static void groups(Course c, int groupNum){
@@ -58,7 +58,7 @@ public class Runner {
         studentList.add("Adi A");
         studentList.add("Phoebe C");
         studentList.add("Olena C");
-       // studentList.add("Tenny D");
+        studentList.add("Tenny D");
         studentList.add("Sayam G");
         studentList.add("Kent H");
         studentList.add("Mason H");
@@ -84,12 +84,12 @@ public class Runner {
         studentList.add("Natalie B");
         studentList.add("Vlad C");
         studentList.add("Matthew C");
-        studentList.add("Lucy E");
+        //studentList.add("Lucy E");
         studentList.add("Sancho G");
         studentList.add("Pricilla G");
         studentList.add("John H");
         studentList.add("Aiden Q");
-        studentList.add("James R");
+        //studentList.add("James R");
         studentList.add("Ahren R");
         studentList.add("Hargun S");
         studentList.add("Alex W");
@@ -140,7 +140,7 @@ public class Runner {
         studentList.add("Jack S");
         studentList.add("Jenna S");
         studentList.add("Dominic S");
-        studentList.add("Tyler S");
+        //studentList.add("Tyler S");
         studentList.add("Anderson W");
         studentList.add("William Y");
         studentList.add("Rex Z");
